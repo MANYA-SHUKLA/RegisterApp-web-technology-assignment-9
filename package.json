@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-form-validation",
+  "version": "1.0.0",
+  "description": "Form validation with secure file storage",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "form",
+    "validation",
+    "file-storage"
+  ],
+  "author": "MANYA SHUKLA",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-validator": "^7.3.0"
+  }
+}
