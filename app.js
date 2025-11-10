@@ -141,7 +141,7 @@ app.get('/health', (req, res) => {
     });
 });
 
-// Initialize server
+
 async function startServer() {
     try {
         await userManager.initialize();
